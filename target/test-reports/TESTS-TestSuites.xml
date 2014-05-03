@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="Himanshu-PC" id="0" name="VendorControllerTests" package="com.sky.district.domain" tests="1" time="0.939" timestamp="2011-06-01T20:28:18">
+      <properties />
+
+      <testcase classname="com.sky.district.domain.VendorControllerTests" name="testSomething" time="0.92">
+          <error message="No signature of method: com.sky.district.domain.Vendor.save() is applicable for argument types: (java.util.LinkedHashMap) values: [[flush:true]] Possible solutions: wait(), any(), wait(long), each(groovy.lang.Closure), isCase(java.lang.Object), any(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.sky.district.domain.Vendor.save() is applicable for argument types: (java.util.LinkedHashMap) values: [[flush:true]]
+Possible solutions: wait(), any(), wait(long), each(groovy.lang.Closure), isCase(java.lang.Object), any(groovy.lang.Closure)
+	at com.sky.district.domain.VendorControllerTests.testSomething(VendorControllerTests.groovy:20)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
